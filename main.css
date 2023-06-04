@@ -184,8 +184,13 @@ hr {
 .card {
   justify-content: center;
   padding: 32px;
-  border: 2px solid rgba(255, 255, 255, 0.75);
+  /* border: 2px solid rgba(255, 255, 255, 0.75); */
   /* border-radius: 16px; */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+}
+
+.card:nth-child(3) {
+  border: none;
 }
 
 .card-head {
@@ -224,6 +229,7 @@ hr {
   background-position: center;
   background-size: contain;
 }
+
 /*****************************************************************************************************************/
 /* Making the cards countaner layout */
 
